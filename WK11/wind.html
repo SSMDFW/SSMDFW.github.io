@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wind Speed</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">   
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="maincontainer">
+    <section class="rain">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>                  
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="data.html">Data</a></li>
+                    <li><a class="nav-link" href="comparison.html">Comparison</a></li>
+                    <li class="dropdown">
+                        <a class="nav-link" data-toggle="dropdown" href="#">Plots<span class="caret"></a>
+                        <ul class="dropdown-menu">
+                         <li><a href="temp.html">Temperature</a></li> 
+                         <li><a href="humid.html">Humidity</a></li>
+                         <li><a href="cloud.html">Cloudiness</a></li>   
+                         <li><a href="wind.html">Wind Speed</a></li>
+                      </ul>
+                    </li>
+                    </ul>
+                </div>
+              </nav>    
+        </section>
+     
+              <div class="container">
+                <div class="row row-grid">
+                    <div class="col-md-8">
+                        <div class="box box-left">
+                            <section id="intro">
+                                <h1>Latitude vs Wind Speed</h1>
+                                <hr>
+                                <figure>
+                                    <a target="_blank" href=".\\assets-images\\Fig3.png">
+                                        <img align="left" id="viz-main" src=".\\assets-images\\Fig3.png" alt="Latitude of cities"  style="width:400px;height:325px;">
+                                    </a>
+                                </figure>
+        
+                                <section id="summary">
+                                    <p>
+                                        Latitude - Latitude vs Wind Speed
+                            
+                                     </p>
+        
+                                    <p>  
+               
+                                    </p>
+        
+                                    <p>
+                                        In building this dashboard, we'll create individual pages for each plot and a means by 
+                                        which we can navigate between them. These pages will contain the visualizations and their 
+                                        corresponding explanations. We'll also have a landing page, a page where we can see a comparison 
+                                        of all of the plots, and another page where we can view the data used to build them.
+        
+                                    </p>
+       
+     
+                                </section>
+        
+                            </section>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+
+</body>
+<div class="footer">
+  <p>Week 11 Homework - SSM </p>
+</div> 
+</html>
